@@ -9,4 +9,5 @@ def lcs(X, Y,m,n):
 		return max(lcs(X,Y,m,n-1),lcs(X,Y,m-1,n));
 X="AGGYAB"
 Y="GXTXAYB"
-print("length of lcs is :" lcs(X,Y,len(X),len(Y)))
+print("length of lcs is :")
+print(lcs(X,Y,len(X),len(Y)))
