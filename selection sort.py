@@ -5,7 +5,7 @@ def selection_sort(arr,size):
     for i in range ( size ):   
          key = i
          for j in range( i +1 , size ):
-             if arr[j]<key:
+             if arr[j]<arr[key]:
                  key=j
          (arr[i],arr[key] )= (arr[key],arr[i])
 if __name__=="__main__":
